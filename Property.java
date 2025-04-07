@@ -45,6 +45,14 @@ public class Property{
 	}
 	
 	// methods
+
+	// to equals
+	public boolean equals(Property otherProperty){
+		return (propertyName.equals(otherProperty.propertyName) && city.equals(otherProperty.city) && 
+			owner.equals(otherProperty.owner) && rentAmount == rentAmount.equals(otherProperty.rentAmount)&& 
+			plot.equals(otherProperty.plot)); 
+
+	}
 	public String getCity() {
 		return city;
 	}
